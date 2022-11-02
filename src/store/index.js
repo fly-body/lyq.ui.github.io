@@ -8,7 +8,7 @@ const getters = {}
 const mutations = {}
 const actions = {}
 
-const store = new Vuex.store({
+const store = new Vuex.Store({
     state,
     getters,
     actions,
