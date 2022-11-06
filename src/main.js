@@ -6,9 +6,9 @@ import store from './store'
 
 import Button from './components/button/index.js';
 import Icon from './components/icon/index.js'
+import Input from './components/input/index.js'
 
-
-Vue.use(Button).use(Icon);
+Vue.use(Button).use(Icon).use(Input);
 
 Vue.config.productionTip = false
 
